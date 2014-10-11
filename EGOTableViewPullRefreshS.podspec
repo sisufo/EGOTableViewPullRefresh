@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/sisufo/EGOTableViewPullRefresh.git", :tag => "1.0" }
   s.source_files  = 'EGOTableViewPullRefresh/Classes/*.{h,m}'
   s.exclude_files = 'EGOTableViewPullRefreshDemo'
+  s.requires_arc = false
 
   # s.public_header_files = 'Classes/**/*.h'
   s.resources = "EGOTableViewPullRefresh/Resources/*.png"
